@@ -1,9 +1,15 @@
 body{
-font-family: 'Coiny', cursive;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Coiny', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font: 400 24px 'Roboto',sans-serif;
+
 }
-header{
-    font-size: 32px;
+nav h1,footer h1{
+    font-family: 'Coiny',cursive;
+}
+header h1{
+    font-size: 41px;
 }
 h1,h2,h3,h4{
     color:black;
@@ -11,6 +17,9 @@ h1,h2,h3,h4{
 h2,h3{
     font-size: 20px;
     background-color: yellow;
+}
+h3{
+    font-size: 26px;
 }
 .somos{
     font-size: 32px;
@@ -21,12 +30,21 @@ h2,h3{
 .lista-ordenada{
     font-size: 54.6px;
 }
-footer h1{
-    font-size: 33px;
-}
 
 footer{
     font-family: "Roboto";
     font-size: 28px;
+    background-color: yellow;
 
+}
+h4{
+    font-size: 51px;
+    color: white;
+    background-color: black;
+}
+footer h1{
+    font-size: 33px;
+}
+main{
+    font-size: 21px;
 }
